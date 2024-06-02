@@ -37,7 +37,7 @@ body {
 .resultados h1 {
     font-size: 1.8rem;
     color: var(--light-blue);
-    margin: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .resultados div {
@@ -154,7 +154,7 @@ body {
         grid-template-columns: 1fr 1fr;
         width: 736px;
         background: var(--white);
-        border-radius: 3.2rem 0 0 3.2rem;
+        border-radius: 3.2rem;
     }
 
     .resultados {
@@ -192,11 +192,26 @@ body {
     }
     
     .resumo {
-        font-size: 3.8rem 4rem;
+        padding: 3.8rem 4rem;
+        border-radius: 3.2rem;
     }
 
     .resumo h2 {
         font-size: 2.4rem;
         margin-bottom: 3rem;
+    
+    }
+
+    .resumo div {
+        font-size: 1.8rem;
+    }
+
+    .resumo button {
+        margin-top: 2.4rem;
+    }
+
+    .resumo button:hover {
+        background: var(--resultado-bg);
+        cursor: pointer;
     }
 }
